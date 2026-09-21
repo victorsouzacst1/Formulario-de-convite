@@ -1,0 +1,40 @@
+.droparea-wrapper {
+  width: 100%;
+  & label {
+    color: var(--text-body);
+    margin-bottom: 0.75rem;
+  }
+
+  & .droparea {
+    position: relative;
+    
+    & input {
+      all: unset;
+      color: var(--input-placeholder);
+      font: var(--body-md);
+      width: 100%;
+    }
+
+    & .droparea-button {
+      position: absolute;
+      top: 0;
+      background-color: var(--shape-button);
+      color: var(--text-heading);
+      padding: 0.65625rem;
+      border-radius: 0.5rem;
+    }
+
+    & input[type="file"]::file-selector-button {
+      padding-block: 0.6rem;
+      position: relative;
+      margin-right: 0.75rem;
+      opacity: 0;
+      inset: 0;
+      z-index: 1;
+    }
+
+    & input:hover ~ .droparea-button {
+      background-color: var(--shape-hover);
+    }
+  }
+}
