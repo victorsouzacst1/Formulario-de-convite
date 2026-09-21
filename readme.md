@@ -1,6 +1,6 @@
 # Formulário de Convite
 
-<img src="assets/Projeto-formulario-convite.jpeg>
+<img src="assets/Projeto-formulario-convite.jpeg">
 
 ## Tecnologias Utilizadas
 - HTML5: Estrutura do formulário.
